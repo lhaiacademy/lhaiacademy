@@ -2,7 +2,7 @@
 
 **One central AI computer for an organisation — people and AI staff working together on one server, one database and one company memory, reached through our own browser on any PC or phone.**
 
-Built and live in 103 days (8 Aug – 18 Nov 2026) by one founder, a former bank executive, with a team of AI engineers (Claude). Every line of code was written by Claude; the founder gave the work, the domain knowledge and the decisions, and checked every screen.
+Built and live in 103 days (8 Aug – 18 Nov 2026) by one founder, a former bank executive, with Claude as the whole engineering team. The founder writes no code: he gave the work, the domain knowledge and the decisions, and checked every screen.
 
 ▶ **The story in 2½ minutes:** [One man. 103 days.](https://youtube.com/shorts/f4GedHd11g4)
 
@@ -29,7 +29,7 @@ Built and live in 103 days (8 Aug – 18 Nov 2026) by one founder, a former bank
 
 ## How it is built
 
-Cloudflare Workers · PostgreSQL · one AI gateway with a model per role (Claude, OpenAI, or the customer's own local AI) · about 273,000 lines of code and tests · 2,597 automated checks on every change. In the studio apps, numbers are computed by code, never by the model; the model writes words only.
+Cloudflare Workers · PostgreSQL · one AI gateway with a model per role (Claude, OpenAI, or the customer's own local AI) · over 440,000 lines of code and tests across our repositories ([the counts and how they were made](data/103-days/)) · thousands of automated checks on every change. In the studio apps, numbers are computed by code, never by the model; the model writes words only.
 
 The source code is private. A live walk-through of any part can be arranged on a call.
 
